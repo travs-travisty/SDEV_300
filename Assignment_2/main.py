@@ -1,7 +1,10 @@
-import string
-import secrets
-import math
-from datetime import datetime
+#Travis Gibson
+#SDEV 300
+
+import string # Used for string manipulation and defining character sets for password generation
+import secrets # Used for generating secure random numbers (e.g., for password generation)
+import math # Used for mathematical calculations and functions
+from datetime import datetime # Used for working with dates and times (e.g., calculating the number of days until a specific date)
 
 # Function to generate a secure password
 def generate_secure_password():
